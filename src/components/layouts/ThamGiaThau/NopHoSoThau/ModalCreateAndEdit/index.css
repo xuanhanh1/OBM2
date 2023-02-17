@@ -1,0 +1,50 @@
+.gridViewBHXH {
+  border-radius: 7px;
+  padding: 5px !important;
+}
+
+.gridViewBHXH .dx-datagrid-scroll-container {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+.gridViewBHXH .dx-scrollable-container {
+  overflow-x: scroll !important;
+}
+.gridViewBHXH .dx-scrollable-container::-webkit-scrollbar {
+  width: 1px;
+  height: 7px;
+}
+/* .gridViewBHXH .dx-scrollable-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .gridViewBHXH .dx-scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #666;
+    outline: 1px solid #eee;
+  } */
+.gridViewBHXH .dx-datagrid-content .dx-datagrid-table {
+  width: 100% !important;
+}
+#gridContainer {
+  height: 100%;
+  width: 100% !important;
+}
+#priceDataGrid {
+  max-width: 100% !important;
+}
+.gridContainer {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+.gridViewBHXH
+  .dx-multiview
+  .dx-swipeable
+  .dx-tabpanel
+  .dx-widget
+  .dx-visibility-change-handler
+  .dx-collection {
+  /* height: 100% !important; */
+}
+div#tabPanel {
+  height: 93%;
+}

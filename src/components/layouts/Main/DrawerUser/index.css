@@ -1,0 +1,72 @@
+.inforUser {
+  font-family: var(--font-custom);
+}
+.inforUser img {
+  width: 110px;
+  height: 110px;
+  margin-right: 10px;
+}
+.inforUser > div {
+  padding: 5px 0px; 
+}
+.inforUser > div a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px !important;
+}
+.inforUser > div a:hover {
+  color: var(--main-color);
+}
+.inforUser > div h5 {
+  margin-bottom: 0 !important;
+  margin-bottom: 5px !important;
+}
+.inforUser > div button {
+  background-color: #ff6344aa;
+  color: var(--main-color);
+  font-weight: bold;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  padding: 0px 10px !important;
+  font-size: 12px;
+}
+.inforUser > div button:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.toolUserBar > div {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.toolUserBar > div:hover > div a {
+  color: var(--main-color);
+}
+
+.toolUserBar > div img {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.toolUserBar > div > div a {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+.toolUserBar > div > div p {
+  color: lightgray;
+  font-size: 12px;
+}
+button:disabled,
+button[disabled]{
+ opacity: 0.5;
+}

@@ -1,0 +1,115 @@
+#report #table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: white;
+}
+#report #table td,
+#report #table th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+#report #table th {
+  font-weight: bold;
+  text-align: center;
+}
+#report #table td {
+  text-align: center;
+}
+#report {
+  background-color: white;
+  height: auto;
+}
+#report #table thead {
+  background-color: #d0d7de;
+}
+#report #tableHeader {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: white;
+}
+
+#report #table th #th1 {
+  width: 100px;
+}
+
+#report #table .end-td {
+  font-weight: bold !important ;
+  text-align: right !important;
+}
+/* --------------------- */
+#report #table_1 {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 11px;
+  background-color: white;
+}
+#report #table_1 td,
+#report #table_1 th {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+}
+#report #table_1 th {
+  font-weight: bold;
+}
+
+/* ----------------------------------------- */
+#table tr th {
+  /* color: blue; */
+  font-size: 12px;
+}
+#table tr td {
+  font-size: 12px;
+}
+
+#table .money {
+  text-align: right !important;
+}
+
+#report #table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px !important;
+  background-color: white;
+}
+#report #table td,
+#report #table th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 3px;
+}
+#report #table th {
+  font-weight: bold;
+  text-align: center;
+}
+#report {
+  background-color: white;
+  height: auto;
+}
+#report #table thead {
+  background-color: #d0d7de;
+}
+#report #tableHeader {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 11px;
+  background-color: white;
+}
+
+#report #table th #th1 {
+  width: 100px;
+}
+
+#report #table .end-td {
+  font-weight: bold !important ;
+  text-align: right !important;
+}

@@ -1,0 +1,192 @@
+.toolBar {
+  border-radius: 7px;
+  position: relative;
+}
+.gridView {
+  padding: 4px;
+  border-radius: 7px;
+}
+.DropDownWrapper {
+  padding: 0;
+  border-radius: 10px;
+}
+.DropDownWrapper ul {
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.gridView2Col ._gridViewCol p {
+  border-radius: 10px;
+  margin-bottom: 8px !important;
+  transition: all 0.3s;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #eee;
+}
+.ant-modal-close:focus,
+.ant-modal-close:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+  transition: background-color 0.3s;
+}
+
+/* .toolBar .ant-btn {
+  background: linear-gradient(to left, #1890ff 50%, white 50%) right !important;
+  background-size: 200% !important;
+  transition: 0.5s ease-out !important;
+}
+
+.toolBar .ant-btn:hover {
+  background-position: left !important;
+  border: 1px solid #f0ab00;
+} */
+.toolBar .ant-btn {
+  border-radius: 10px;
+  border: solid 1px #eee;
+}
+.toolBar .ant-btn.add-btn {
+  background: linear-gradient(to left, #71bd85 50%, white 50%) right !important;
+  background-size: 200% !important;
+  transition: 0.3s ease-out !important;
+  border: solid 1px white;
+}
+.toolBar .ant-btn.add-btn:hover {
+  background-position: left !important;
+  background: white;
+  border: solid 1px #71bd85;
+  color: #71bd85;
+}
+.toolBar .ant-btn.edit-btn {
+  background: linear-gradient(to left, #f59e0b 50%, white 50%) right !important;
+  background-size: 200% !important;
+  transition: 0.3s ease-out !important;
+  border: solid 1px white;
+}
+.toolBar .ant-btn.edit-btn:hover {
+  background-position: left !important;
+  background: white;
+  border: solid 1px #f59e0b;
+  color: #f59e0b;
+}
+.toolBar .ant-btn.delete-btn {
+  background: linear-gradient(to left, #df3b3b 50%, white 50%) right !important;
+  background-size: 200% !important;
+  transition: 0.3s ease-out !important;
+  border: solid 1px white;
+}
+.toolBar .ant-btn.delete-btn:hover {
+  background-position: left !important;
+  background: white;
+  border: solid 1px #df3b3b;
+  color: #df3b3b;
+}
+.toolBar .ant-btn.approve-btn {
+  background: linear-gradient(to left, #2196f3 50%, white 50%) right !important;
+  background-size: 200% !important;
+  transition: 0.5s ease-out !important;
+  border: solid 1px white;
+}
+.toolBar .ant-btn.approve-btn:hover {
+  background-position: left !important;
+  background: white;
+  border: solid 1px #2196f3;
+  color: #2196f3;
+}
+.ant-btn:not([disabled]):active,
+.ant-btn:focus {
+  color: #fff !important;
+}
+.ant-btn[disabled] {
+  opacity: 0.7;
+  color: #999;
+}
+.dx-checkbox.dx-state-readonly .dx-checkbox-icon {
+  border-color: #767474;
+  background-color: #e9e3e3;
+  color: red;
+  font-weight: bold;
+}
+.card-body {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+}
+.card-title {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: #555f78;
+}
+.toolBar > span {
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  background: #fff;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: solid 1px #eee;
+}
+.icon-viewDetail :hover {
+  color: #df3b3b;
+  transition: all 0.3s;
+}
+#apexchartschartxthietbisuachua path {
+  cursor: pointer;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 5px !important;
+}
+.dx-editor-cell {
+  padding: 7px 7px !important;
+}
+.dx-datagrid .dx-column-lines > td {
+  border-left: 1px solid #f0f2f5 !important;
+  border-right: 1px solid #f0f2f5 !important;
+}
+.dx-datagrid-focus-overlay {
+  display: none;
+}
+.dx-toolbar-item-content .dx-state-focused,
+.dx-toolbar-item-content .dx-state-hover {
+  border-color: #eee !important;
+}
+.dx-pager .dx-page-sizes .dx-selection,
+.dx-pager .dx-pages .dx-selection {
+  background-color: #f0f2f5 !important;
+}
+.dx-pager .dx-pages .dx-navigate-button {
+  font-size: 12px !important;
+}
+.dx-datagrid-nodata {
+  color: #000 !important;
+  font-weight: bold;
+  font-size: 22px !important;
+}
+.ant-spin-dot-item {
+  background-color: #b3202b !important;
+}
+.downloadFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in-out;
+}
+.downloadFile:hover {
+  background-color: rgb(241, 241, 241);
+}
